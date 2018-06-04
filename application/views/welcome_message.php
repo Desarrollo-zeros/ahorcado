@@ -342,7 +342,7 @@ echo '<script>localStorage.url = "'.base_url("Juego").'"</script>';
 <script>
 
 	var tiempo = 60;
-	var abcd = ["A","B","C","D","E","F","H","I","J","k","L","M","N","Ñ","O","P","Q","R","S","T","U","W","V","X","Y","Z"," ","Á","É","Í","Ó","Ú"];
+	var abcd = ["A","B","C","D","E","F","G","H","I","J","k","L","M","N","Ñ","O","P","Q","R","S","T","U","W","V","X","Y","Z"," ","Á","É","Í","Ó","Ú"];
 	var letra = "";
 	var contador = 1;
 	var repuesta1 = "";
