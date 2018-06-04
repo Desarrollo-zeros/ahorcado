@@ -521,11 +521,12 @@ echo '<script>localStorage.url = "'.base_url("Juego").'"</script>';
 		if( r.length == obj.repuesta1.length && r.toString().toUpperCase() == obj.repuesta1.toUpperCase()){
 				clearInterval($t);
 				$('#imagen').attr("src","uploads/juego/vivio.png");
-				var str = "";
+				/*var str = "";
 				for(var i in obj.repuesta1){
 					str += "<td id='x"+i+"'>"+obj.repuesta[i]+"</td>";
 				}
 				$("#trTable").html(str);
+				*/
 				alert("ganaste");
 				registrarProgreso(1);
 		}
